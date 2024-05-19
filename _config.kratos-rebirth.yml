@@ -82,8 +82,8 @@ posts:
     provider: valine
 
 valine:
-  app_id: Ov23lihgUcdO2DQ6WaBV
-  app_key: c976e705e67460ac2e4028420749c38b478b9205
+  app_id: 5icREqOr77euRu8W2fXTCOhD-gzGzoHsz
+  app_key: pFkctaxveKcQPPCXVhlWWfYl
   visitor: true
   enableQQ: false
 
