@@ -79,11 +79,17 @@ friends:
 
 posts:
   comments: 
-    provider: gitalk
+    provider: valine
 
-gitalk:
-  clientID: 'GitHub Application Client ID'
-  clientSecret: 'GitHub Application Client Secret'
+valine:
+  app_id: Ov23lihgUcdO2DQ6WaBV
+  app_key: c976e705e67460ac2e4028420749c38b478b9205
+  visitor: true
+  enableQQ: false
+
+#gitalk:
+  #clientID: 'GitHub Application Client ID'
+  #clientSecret: 'GitHub Application Client Secret'
   # repo: 'Kratos-Rebirth-Demo'
   # owner: 'Candinya'
   # admin: 
