@@ -101,4 +101,6 @@ theme: kratos-rebirth
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/ALEX-X36/ALEX-X36.github.io
+  branch: main
