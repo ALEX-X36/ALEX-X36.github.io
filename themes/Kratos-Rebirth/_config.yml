@@ -107,17 +107,17 @@ posts:
     threshold: 1500
 
 # Disqus [Disqus](https://disqus.com) 评论相关
-disqus:
-  shortname: 
+#disqus:
+#  shortname: 
 
 # DisqusJS [DisqusJS](https://disqusjs.skk.moe/) 评论相关
-disqusjs:
-  shortname: 
-  sitename: 
-  api: 
-  apikey: 
-  admin: 
-  adminlabel: 
+#disqusjs:
+#  shortname: 
+#  sitename: 
+#  api: 
+#  apikey: 
+#  admin: 
+#  adminlabel: 
 
 # Valine [Valine](https://valine.js.org) 评论相关
 valine:
@@ -133,10 +133,10 @@ twikoo:
 # Waline [Waline](https://waline.js.org) 评论相关
 ## 不仅限于以下内容，您可以参照 Waline的 [前端配置文档](https://waline.js.org/reference/client.html) 设置您需要的配置项
 ## el 和 path 会在页面自动生成，不必加入
-waline:
-  serverURL: #后端服务器地址，必填
-  comment: true
-  pageview: true
+#waline:
+#  serverURL: #后端服务器地址，必填
+#  comment: true
+#  pageview: true
 
 # Gitalk [Gitalk](https://gitalk.github.io/) 评论相关
 ## 不仅限于以下内容，您可以参照 [Gitalk 文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE) 设置您需要的配置项
@@ -144,30 +144,30 @@ waline:
 gitalk:
   clientID: 'GitHub Application Client ID'
   clientSecret: 'GitHub Application Client Secret'
-  repo: 'Kratos-Rebirth-Demo'
-  owner: 'Candinya'
+  repo: 'ALEX-X36.github.io'
+  owner: 'ALEX-X36'
   admin: 
-    - 'Candinya'
+    - 'ALEX-X36'
   distractionFreeMode: false
 
 #默认不计算hash 但是如果id过长(默认为url_for(page.path))会导致创建评论区失败 见[#139](https://github.com/Candinya/Kratos-Rebirth/issues/139)
-gitalk_id_hasher: false
+#gitalk_id_hasher: false
 # gitalk_id_hasher: md5
 
 # Gitment [Gitment](https://github.com/imsun/gitment/) 评论相关
 ## 不仅限于以下内容，您可以参照 [Gitment 文档](https://github.com/imsun/gitment#methods) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
-gitment:
-  owner: 'Candinya'
-  repo: 'Kratos-Rebirth-Demo'
-  oauth:
-    client_id: 'Your client ID'
-    client_secret: 'Your client secret'
+#gitment:
+#  owner: 'Candinya'
+#  repo: 'Kratos-Rebirth-Demo'
+#  oauth:
+#    client_id: 'Your client ID'
+#    client_secret: 'Your client secret'
 
 # LiveRe [LiveRe](https://livere.com/) 评论相关
-livere:
-  id: city
-  uid:
+#livere:
+#  id: city
+#  uid:
 
 # APlayer 左下角音乐播放器
 aplayer:
