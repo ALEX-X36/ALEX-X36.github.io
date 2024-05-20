@@ -96,8 +96,8 @@ contact: # 出于兼容性考虑，继续保留
   
 # Post Page 文章页配置
 posts:
-  show_cc: true
-  donate: false
+  show_cc: false
+  donate: true
   share: true
   comments: 
     provider: ''
@@ -214,8 +214,8 @@ jsconfig:
     createTime: "2018/05/06 17:03:12"
     donateBtn: "支持我~"
     scanNotice: "扫一扫，好不好？"
-    qr_alipay: "/images/alipayqr.webp"
-    qr_wechat: "/images/wechatpayqr.webp"
+    qr_alipay: "/images/alipayqr.jpg"
+    qr_wechat: "/images/wechatpayqr.jpg"
     siteLeaveEvent: false
     leaveTitle: "{{{(>_<)}}}哦哟，崩溃啦~"
     returnTitle: "(*´∇｀*)欸，又好啦~"
@@ -236,7 +236,7 @@ friends:
     title: "好伙伴们"
     comments: false
     description: "好伙伴们在哪里~"
-    updated: "2021-01-18"
+    updated: "2024-05-20"
   list:
   # - name: "猫猫①号"
   #   bio: "喵~"
